@@ -179,7 +179,7 @@ export default function Home() {
                   </div>
 
                   <div className="relative h-[210px] w-[210px]">
-                    <Image layout="fill" src="/assets/img/mk1/inner.jpg" className="object-cover z-0" />
+                    <Image layout="fill" src="/assets/img/mk1/inner.JPG" className="object-cover z-0" />
                   </div>
                 </div>
 
@@ -213,17 +213,17 @@ export default function Home() {
 
                 <div className="flex justify-end w-full gap-4 py-8 flex-wrap">
                   <div className="relative h-[210px] w-[210px]">
-                    <Image layout="fill" src="/assets/img/mk2/BIKE.jpg" className="object-cover z-10" />
+                    <Image layout="fill" src="/assets/img/mk2/BIKE.JPG" className="object-cover z-10" />
                   </div>
                   <div className="relative h-[210px] w-[210px]">
-                    <Image layout="fill" src="/assets/img/mk2/AUTO.jpg" className="object-cover z-10" />
+                    <Image layout="fill" src="/assets/img/mk2/AUTO.JPG" className="object-cover z-10" />
                   </div>
 
                   <div className="relative h-[210px] w-[210px]">
-                    <Image layout="fill" src="/assets/img/mk2/switch.jpg" className="object-cover z-10" />
+                    <Image layout="fill" src="/assets/img/mk2/switch.JPG" className="object-cover z-10" />
                   </div>
                   <div className="relative h-[210px] w-[210px]">
-                    <Image layout="fill" src="/assets/img/mk2/switches.jpg" className="object-cover z-10" />
+                    <Image layout="fill" src="/assets/img/mk2/switches.JPG" className="object-cover z-10" />
                   </div>
                 </div>
 
