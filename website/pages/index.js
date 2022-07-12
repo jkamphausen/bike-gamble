@@ -153,13 +153,16 @@ export default function Home() {
               <div className="w-full p-4 text-gray-900 z-10">
                 <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-8">
 
-                  <div className="bg-neutral-50 min-h-[50vh] p-4">
-                    <h2 className="font-bold text-3xl pb-4">The Choice Machine</h2>
+                  <div className="bg-neutral-50 min-h-[50vh] p-4 flex flex-col gap-2">
+                    <h2 className="font-bold text-3xl pb-2">The Choice Machine</h2>
                     <p>Oh yes, you know it would be much better to take the bike more often instead of driving around in a big car. But if you have to decide, then you go on 4 wheels to the bakery?</p>
                     <p>If you know that you often make bad decisions or are just too lazy to work on yourself - no problem! The decision engine takes a lot of work off your shoulders and decides well for you - at least 60%!</p>
+                    <p>
+                      This first prototype is made of scrap wood, parts of a mandarin box, a board, a decoder, various cables of some tinkering and fun. 🛠️
+                    </p>
                   </div>
                   <div className="grid items-center relative">
-                    <Image layout="fill" src="/assets/img/stock/metal-2.jpg" className="object-cover z-10" />
+                    <Image layout="fill" src="/assets/img/mk1/front.jpg" className="object-cover z-10" />
                   </div>
 
                 </div>
@@ -179,12 +182,12 @@ export default function Home() {
               <div className="w-full p-4 text-gray-900 z-10">
                 <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-8">
 
-                  <div className="bg-neutral-50 min-h-[50vh] p-4">
-                    <h2 className="font-bold text-3xl pb-4">Choice Machine - MK II</h2>
+                  <div className="bg-neutral-50 min-h-[50vh] p-4 flex flex-col gap-2">
+                    <h2 className="font-bold text-3xl pb-2">Choice Machine - MK II</h2>
                     <p>The MK II changes the presentation of the profit and the process of issuing keys. During the game, both keys are on display - the prize is practically hanging right in front of your nose. Almost within reach. One pull of the lever and it can be yours ... the prize or question: Do I really need THIS key?</p>
                   </div>
-                  <div className="bg-green-200 grid items-center relative bg-yellow-500">
-                    <Image layout="fill" src="/assets/img/stock/metal-4.jpg" className="object-cover z-10" />
+                  <div className="grid items-center relative">
+                    <Image layout="fill" src="/assets/img/mk2/front.jpg" className="object-cover z-10" />
                   </div>
 
                 </div>
@@ -204,11 +207,11 @@ export default function Home() {
               <div className="w-full p-4 text-gray-900 z-10">
                 <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-8">
 
-                  <div className="bg-neutral-50 min-h-[50vh] p-4">
-                    <h2 className="font-bold text-3xl pb-4">Choice Machine - MK III</h2>
+                  <div className="bg-neutral-50 min-h-[50vh] p-4 flex flex-col gap-2">
+                    <h2 className="font-bold text-3xl pb-2">Choice Machine - MK III</h2>
                     <p>The third generation of the decision-making machine should be aesthetically pleasing, easy to produce and robust in use. For this purpose, we will rely on a 3D printing process for the fabrication of the body. The new machine will be based on the principle of the MK II and will be key forward. The MK III is expected in September. </p>
                   </div>
-                  <div className="bg-green-200 grid items-center relative bg-yellow-500">
+                  <div className="grid items-center relative">
                     <Image layout="fill" src="/assets/img/stock/metal-2.jpg" className="object-cover z-10" />
                   </div>
 
