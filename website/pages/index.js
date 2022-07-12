@@ -151,14 +151,14 @@ export default function Home() {
 
             <div className="mx-auto max-w-5xl">
               <div className="w-full p-4 text-gray-900 z-10">
-                <div className="grid grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-8">
 
                   <div className="bg-neutral-50 min-h-[50vh] p-4">
                     <h2 className="font-bold text-3xl pb-4">The Choice Machine</h2>
                     <p>Oh yes, you know it would be much better to take the bike more often instead of driving around in a big car. But if you have to decide, then you go on 4 wheels to the bakery?</p>
                     <p>If you know that you often make bad decisions or are just too lazy to work on yourself - no problem! The decision engine takes a lot of work off your shoulders and decides well for you - at least 60%!</p>
                   </div>
-                  <div className="bg-green-200 grid items-center relative bg-yellow-500">
+                  <div className="grid items-center relative">
                     <Image layout="fill" src="/assets/img/stock/metal-2.jpg" className="object-cover z-10" />
                   </div>
 
@@ -177,7 +177,7 @@ export default function Home() {
 
             <div className="mx-auto max-w-5xl">
               <div className="w-full p-4 text-gray-900 z-10">
-                <div className="grid grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-8">
 
                   <div className="bg-neutral-50 min-h-[50vh] p-4">
                     <h2 className="font-bold text-3xl pb-4">Choice Machine - MK II</h2>
@@ -202,7 +202,7 @@ export default function Home() {
 
             <div className="mx-auto max-w-5xl">
               <div className="w-full p-4 text-gray-900 z-10">
-                <div className="grid grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-8">
 
                   <div className="bg-neutral-50 min-h-[50vh] p-4">
                     <h2 className="font-bold text-3xl pb-4">Choice Machine - MK III</h2>
