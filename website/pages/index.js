@@ -172,10 +172,10 @@ export default function Home() {
 
                 <div className="flex justify-end w-full gap-4 py-8 flex-wrap">
                   <div className="relative h-[210px] w-[210px]">
-                    <Image layout="fill" src="/assets/img/mk1/first-cover.jpg" className="object-cover z-0" />
+                    <Image layout="fill" src="/assets/img/mk1/first-cover.JPG" className="object-cover z-0" />
                   </div>
                   <div className="relative h-[210px] w-[210px]">
-                    <Image layout="fill" src="/assets/img/mk1/back.jpg" className="object-cover z-0" />
+                    <Image layout="fill" src="/assets/img/mk1/back.JPG" className="object-cover z-0" />
                   </div>
 
                   <div className="relative h-[210px] w-[210px]">
