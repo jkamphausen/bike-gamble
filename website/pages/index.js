@@ -246,6 +246,8 @@ export default function Home() {
                   <div className="bg-neutral-50 min-h-[50vh] p-4 flex flex-col gap-2">
                     <h2 className="font-bold text-3xl pb-2">Choice Machine - MK III</h2>
                     <p>The third generation of the decision-making machine should be aesthetically pleasing, easy to produce and robust in use. For this purpose, we will rely on a 3D printing process for the fabrication of the body. The new machine will be based on the principle of the MK II and will be key forward. The MK III is expected in September. </p>
+                    <p>The new version should not only have a printed body, but also a replaceable cover, as well as back lighting. This not only underlines wins and losses, but also provides feedback about the machine's activity - e.g. pauses.</p>
+                    <p>We are currently working on a 3d model. More information will be available here soon.</p>
                   </div>
                   <div className="grid items-center relative">
                     <Image layout="fill" src="/assets/img/stock/metal-2.jpg" className="object-cover z-10" />
