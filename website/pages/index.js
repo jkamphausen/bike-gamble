@@ -144,12 +144,12 @@ export default function Home() {
 
 
           <section className="p-4 pb-8 min-h-[100vh] grid items-center relative" id="cm-mk1">
-            <Image
+            {/* <Image
               src="/assets/img/stock/metal-4.jpg"
-              alt="Leistungen"
-              title="Leistungen"
+              alt="The Choice Machine"
+              title="The Choice Machine"
               layout="fill"
-              className="object-cover opacity-[0.025] z-0" />
+              className="object-cover opacity-[0.025] z-0" /> */}
 
             <div className="mx-auto max-w-5xl">
               <div className="w-full p-4 text-gray-900 z-10">
@@ -237,12 +237,12 @@ export default function Home() {
           </section>
 
           <section className="p-4 pb-8 min-h-[100vh] grid items-center relative" id="cm-mk3">
-            <Image
+            {/* <Image
               src="/assets/img/stock/metal-4.jpg"
-              alt="Leistungen"
-              title="Leistungen"
+              alt="The Choice Machine"
+              title="The Choice Machine"
               layout="fill"
-              className="object-cover opacity-[0.025] z-0" />
+              className="object-cover opacity-[0.025] z-0" /> */}
 
             <div className="mx-auto max-w-5xl">
               <div className="w-full p-4 text-gray-900 z-10">
