@@ -163,7 +163,7 @@ export default function Home() {
                       This first prototype is made of scrap wood, parts of a mandarin box, a board, a decoder, various cables of some tinkering and fun. Below is a earlier cover design, the back cover and the internal layout. 🛠️
                     </p>
                     <p className="text-gray-400">
-                      We would love to get some <Link href={qLink}><a target="_blank">feedback</a></Link> of yours! 😄
+                      We would love to get some <Link href={qLink}><a target="_blank" className="underline">feedback</a></Link> of yours! 😄
                     </p>
                   </div>
                   <div className="grid items-center relative">
@@ -208,7 +208,7 @@ export default function Home() {
                       Below is a first cover design for the MK II, a custom switch board which detects if a key has been liftet and some switches that we used for testing.
                     </p>
                     <p className="text-gray-400">
-                      If you like you can provide us some <Link href={qLink}><a target="_blank">feedback and suggestions</a></Link>! 😄
+                      If you like you can provide us some <Link href={qLink}><a target="_blank" className="underline">feedback and suggestions</a></Link>! 😄
                     </p>
                   </div>
                   <div className="grid items-center relative">
@@ -254,7 +254,7 @@ export default function Home() {
                     <p>The new version should not only have a printed body, but also a replaceable cover, as well as back lighting. This not only underlines wins and losses, but also provides feedback about the machine's activity - e.g. pauses.</p>
                     <p>We are currently working on a 3d model. More information will be available here soon.</p>
                     <p className="text-gray-400">
-                      In the meantime you are invited to <Link href={qLink}><a target="_blank">leave us some feedback</a></Link>! 😄
+                      In the meantime you are invited to <Link href={qLink}><a target="_blank" className="underline">leave us some feedback</a></Link>! 😄
                     </p>
                   </div>
                   <div className="grid items-center relative">
