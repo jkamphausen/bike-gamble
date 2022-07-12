@@ -8,7 +8,7 @@ import { useOutsideClick } from '../lib/hooks/useOutsideClick'
 
 export default function Home() {
 
-  const qLink = `https://forms.gle/wWezFwHCZcnA5izq9`
+  const qLink = 'https://forms.gle/wWezFwHCZcnA5izq9'
 
   const [modalState, setModalState] = useState(false)
 
@@ -156,14 +156,14 @@ export default function Home() {
                 <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-8">
 
                   <div className="bg-neutral-50 min-h-[50vh] p-4 flex flex-col gap-2">
-                    <h2 className="font-bold text-3xl pb-2">The Choice Machine</h2>
-                    <p>Oh yes, you know it would be much better to take the bike more often instead of driving around in a big car. But if you have to decide, then you go on 4 wheels to the bakery?</p>
+                    <h2 className="font-bold text-2xl pb-2">The Choice Machine</h2>
+                    <p>Oh yes, you know it would be much better to take the bike more often instead of driving around in a big car. But if you have to decide, then you go on 4 wheels to the bakery? 🚘</p>
                     <p>If you know that you often make bad decisions or are just too lazy to work on yourself - no problem! The decision engine takes a lot of work off your shoulders and decides well for you - at least 60%!</p>
                     <p>
                       This first prototype is made of scrap wood, parts of a mandarin box, a board, a decoder, various cables of some tinkering and fun. Below is a earlier cover design, the back cover and the internal layout. 🛠️
                     </p>
                     <p className="text-gray-400">
-                      We would love to get some <Link><a href={qLink} target="_blank">feedback</a></Link> of yours! 😄
+                      We would love to get some <Link href={qLink}><a target="_blank">feedback</a></Link> of yours! 😄
                     </p>
                   </div>
                   <div className="grid items-center relative">
@@ -202,13 +202,13 @@ export default function Home() {
                 <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-8">
 
                   <div className="bg-neutral-50 min-h-[50vh] p-4 flex flex-col gap-2">
-                    <h2 className="font-bold text-3xl pb-2">Choice Machine - MK II</h2>
+                    <h2 className="font-bold text-2xl pb-2">Choice Machine - MK II</h2>
                     <p>The MK II changes the presentation of the profit and the process of issuing keys. During the game, both keys are on display - the prize is practically hanging right in front of your nose. Almost within reach. One pull of the lever and it can be yours ... the prize or question: Do I really need THIS key?</p>
                     <p className="text-gray-400">
                       Below is a first cover design for the MK II, a custom switch board which detects if a key has been liftet and some switches that we used for testing.
                     </p>
                     <p className="text-gray-400">
-                      If you like you can provide us some <Link><a href={qLink} target="_blank">feedback and suggestions</a></Link>! 😄
+                      If you like you can provide us some <Link href={qLink}><a target="_blank">feedback and suggestions</a></Link>! 😄
                     </p>
                   </div>
                   <div className="grid items-center relative">
@@ -249,12 +249,12 @@ export default function Home() {
                 <div className="grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-8">
 
                   <div className="bg-neutral-50 min-h-[50vh] p-4 flex flex-col gap-2">
-                    <h2 className="font-bold text-3xl pb-2">Choice Machine - MK III</h2>
+                    <h2 className="font-bold text-2xl pb-2">Choice Machine - MK III</h2>
                     <p>The third generation of the decision-making machine should be aesthetically pleasing, easy to produce and robust in use. For this purpose, we will rely on a 3D printing process for the fabrication of the body. The new machine will be based on the principle of the MK II and will be key forward. The MK III is expected in September. </p>
                     <p>The new version should not only have a printed body, but also a replaceable cover, as well as back lighting. This not only underlines wins and losses, but also provides feedback about the machine's activity - e.g. pauses.</p>
                     <p>We are currently working on a 3d model. More information will be available here soon.</p>
                     <p className="text-gray-400">
-                      In the meantime you are invited to <Link><a href={qLink} target="_blank">leave us some feedback</a></Link>! 😄
+                      In the meantime you are invited to <Link href={qLink}><a target="_blank">leave us some feedback</a></Link>! 😄
                     </p>
                   </div>
                   <div className="grid items-center relative">
